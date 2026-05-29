@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linha pagina - Fontes, Mpaa e video</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?& family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Minha pagina Completa</h1>
+        <p>Fonte, Mpaa e video em html</p>
+    </header>
+    <main>
+        <section>
+            <h2>sobre o local</h2>
+            <p>Este texto usa a fonte <strong>Roboto</strong> importada do google fonts. fontes exteras deixam o site com uma aparência mais profissional.</p>
+            <p>
+                Voce pode combinar varias fontes: uma parte titulos e outra parte para o corpo do texto.
+            </p>
+        </section>
+
+        <section>
+            <h2>Localizaçao</h2>
+            <p> encontre-nos no mapa abixo:</p>
+            <div class="mapa container"></div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.1234567890123!2d-46.1234567890123!3d-23.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAwJzAwLjAiUyA0NsKwMDAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890123"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  title="mapa da localizaçao"></iframe>
+                </div>
+        </section>
+
+        <section>
+            <h2>video</h2>
+            <div class="video container">
+                <video controls loop poster="imagens/capa.jpg">
+                    <source src="videos/meu-video.mp4" type="video/mp4">
+                    <source src="videos/meu-video.webm" type="video/webm">
+                    Seu navegador nao suporta o elemento de video.
+                </video>
+            </div>
+            <p class="video-info">
+                Formatos suportados: MP4 (recomendado), WebM, OGG
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Aula de frontend &mdash; Fontes, Mapas e Vídeos</p>
+    </footer>
+</body>
+</html>
